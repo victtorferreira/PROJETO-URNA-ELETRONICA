@@ -89,6 +89,7 @@ body {
 }
 .d-1-3 {
     height: 50px;
+    display: flex;
 }
 .numero {
     display: inline-block;
@@ -144,6 +145,21 @@ body {
 .aviso--gigante {
     font-size: 70px;
     font-weight: bold;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aviso-grande {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.aviso-gigante {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
     flex: 1;
     display: flex;
     justify-content: center;
